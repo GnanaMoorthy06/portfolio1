@@ -150,7 +150,7 @@ operations`,            image: "/projects/project-2.webp",
         {
             icon: <FaGithub className="w-5 h-5" />,
             label: "GitHub",
-            value: "@gnanaMoorthy",
+            value: "@GnanaMoorthy",
             link: `https://github.com/GnanaMoorthy06`
         },
         {
