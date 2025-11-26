@@ -61,7 +61,7 @@ const Logo = ({ isMobile = false }) => (
                 whileTap={{ scale: 0.95 }}
             >
                 <Image
-                    src="/logo2.png"
+                    src="/logo1.png"
                     width={2000}
                     height={2000}
                     alt='logo'
