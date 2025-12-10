@@ -74,9 +74,9 @@ operations`,            image: "/projects/project-2.webp",
             bgClass: "bg-blue-500/10",
             iconClass: "text-blue-500",
             skills: [
-                { name: "React", level: "Advanced" },
-                { name: "JavaScript", level: "Advanced" },
-                { name: "MUI", level: "Intermediate" }
+                
+                { name: "React", level: "Advanced" ,  hot: true},
+                { name: "MUI", level: "Advanced" }
 
             ]
         },
@@ -87,13 +87,14 @@ operations`,            image: "/projects/project-2.webp",
             bgClass: "bg-emerald-500/10",
             iconClass: "text-emerald-500",
             skills: [
-                { name: "Aws-Lambda", level: "Advanced", hot: true },
-                { name: "Node.js", level: "Advanced", hot: true },
-                { name: "Express.js", level: "Advanced", hot: true },
-                { name: "Nest.js", level: "Advanced", hot: true },
-                { name: "TypeScript", level: "Intermediate", hot: true },
-                { name: "PostgreSQL", level: "Advanced", hot: true },
-                { name: "MongoDB", level: "Intermediate", hot: false }
+                { name: "JavaScript", level: "Expert" , hot: true},
+                { name: "TypeScript", level: "Expert", hot: true },
+                { name: "Aws-Lambda", level: "Expert", hot: true },
+                { name: "Node.js", level: "Expert", hot: true },
+                { name: "Express.js", level: "Expert", hot: true },
+                { name: "PostgreSQL", level: "Expert", hot: true },
+                { name: "Nest.js", level: "Advanced", hot: false },
+                { name: "MongoDB", level: "Advanced", hot: false }
             ]
         },
         {
@@ -105,11 +106,11 @@ operations`,            image: "/projects/project-2.webp",
             skills: [
                 { name: "VS Code", level: "Expert", hot: true },
                 { name: "Swagger", level: "Expert", hot: true },
-                { name: "Postman", level: "Advanced" ,hot: true },
-                { name: "Git", level: "Advanced",hot: true  },
+                { name: "Postman", level: "Expert" ,hot: true },
+                { name: "Git", level: "Expert",hot: true  },
                 { name: "SVN", level: "Advanced" },
                 { name: "Jira", level: "Advanced" },
-                { name: "MondayBoard", level: "Advanced",hot: true  }
+                { name: "MondayBoard", level: "Advanced"  }
             ]
         }
     ],
