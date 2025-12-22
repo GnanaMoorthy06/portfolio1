@@ -8,6 +8,7 @@ import Link from 'next/link';
 import { BackgroundPresets } from '@/components/ui/background-effects';
 import { motion } from 'framer-motion';
 import SkillsShowcase from './SkillsShowcase';
+import ServicesShowcase from './SkillsShowcase';
 
 const containerAnimation = {
   hidden: { opacity: 0 },
@@ -117,7 +118,8 @@ that solve problems, drive results, and elevate brands          </motion.p>
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/5 rounded-full blur-3xl" />
           </motion.div>
         </motion.div>
-        <SkillsShowcase />
+        {/* <SkillsShowcase /> */}
+        <ServicesShowcase />
       </div>
     </section>
   );
